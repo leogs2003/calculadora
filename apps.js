@@ -18,7 +18,6 @@ const limparCampos = () =>{
     peso.value =  "";
 }
 
-
 const iniciar = () =>{
 
     let alturaResult = parseFloat((altura.value  ** 2));
