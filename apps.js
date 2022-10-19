@@ -17,7 +17,8 @@ const limparCampos = () =>{
     altura.value =  " ";
     peso.value =  "";
 }
-
+var stringExemplo = "Aprendendo JavaScript na DevMedia!";
+var posicao = stringExemplo.indexOf("JavaScript");
 const iniciar = () =>{
 
     let alturaResult = parseFloat((altura.value  ** 2));
